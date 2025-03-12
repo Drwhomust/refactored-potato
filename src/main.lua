@@ -32,6 +32,9 @@ end
 
 function love.draw()
     love.graphics.print(time, 0, 0)
-    love.graphics.circle("fill", player.x, player.y, 12)
+
+    cam:attach()
+        love.graphics.circle("fill", player.x, player.y, 12)
+    cam:detach()
 end
 
