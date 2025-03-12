@@ -1,6 +1,6 @@
 function love.load()
     sti = require 'lib/sti'
-    camera = require 'libraries/camera'
+    camera = require 'lib/camera'
     love.graphics.setDefaultFilter("nearest", "nearest")
 
     gameMap = sti('maps/world.lua')
