@@ -22,7 +22,7 @@ return {
       spacing = 0,
       margin = 0,
       columns = 18,
-      image = "../../../refactored-potato/src/maps/titleset.png",
+      image = "/titleset.png",
       imagewidth = 576,
       imageheight = 384,
       objectalignment = "unspecified",
