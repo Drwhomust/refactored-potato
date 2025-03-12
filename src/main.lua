@@ -1,4 +1,7 @@
 function love.load()
+    sti = require 'lib/sti'
+    camera = require 'libraries/camera'
+
     time = 1
 
     player = {}
