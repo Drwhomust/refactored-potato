@@ -5,6 +5,8 @@ function love.load()
 
     gameMap = sti('maps/world.lua')
 
+    cam = camera()
+
     time = 1
 
     player = {}
