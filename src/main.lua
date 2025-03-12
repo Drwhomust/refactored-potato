@@ -56,7 +56,6 @@ function love.update()
         cam.y = (mapH - h/2)
     end
 end
-end
 
 function love.draw()
     love.graphics.print(time, 0, 0)
