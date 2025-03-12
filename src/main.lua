@@ -3,7 +3,7 @@ function love.load()
     camera = require 'libraries/camera'
     love.graphics.setDefaultFilter("nearest", "nearest")
 
-    gameMap = sti('')
+    gameMap = sti('maps/world.lua')
 
     time = 1
 
