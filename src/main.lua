@@ -29,6 +29,8 @@ function love.update()
     if love.keyboard.isDown("up") then
         player.y = player.y - player.speed
     end
+
+    cam:lookAt(player.x, player.y)
 end
 
 function love.draw()
