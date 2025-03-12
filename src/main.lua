@@ -1,6 +1,7 @@
 function love.load()
     sti = require 'lib/sti'
     camera = require 'libraries/camera'
+    love.graphics.setDefaultFilter("nearest", "nearest")
 
     time = 1
 
