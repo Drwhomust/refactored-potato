@@ -68,7 +68,7 @@ function love.draw()
     gameMap:drawLayer(gameMap.layers["building"])
     gameMap:drawLayer(gameMap.layers["tree"])
 
-        love.graphics.circle("fill", player.x, player.y, 12)
+    love.graphics.circle("fill", player.x, player.y, 50)
     cam:detach()
 end
 
