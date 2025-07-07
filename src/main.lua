@@ -18,6 +18,7 @@ end
 function love.update()
     time = time + 1
 
+    --[[
     if love.keyboard.isDown("right") then
         player.x = player.x + player.speed
     end
@@ -33,7 +34,8 @@ function love.update()
     if love.keyboard.isDown("up") then
         player.y = player.y - player.speed
     end
-
+]]
+    
     cam:lookAt(player.x, player.y)
 
     local w = love.graphics.getWidth()
